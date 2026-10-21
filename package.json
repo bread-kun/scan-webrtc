@@ -1,0 +1,26 @@
+{
+  "name": "webrtc-qr",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@10.4.0",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "test": "node --test src/signaling.test.js"
+  },
+  "dependencies": {
+    "fflate": "^0.8.2",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "vite": "^6.1.0",
+    "prettier": "^3.5.0"
+  }
+}
